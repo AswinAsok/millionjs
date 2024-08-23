@@ -3,6 +3,7 @@
 Tested on 10 different measurement benchmark suites on seven different implmentations of web page rendering using a subject of the JS Framework Benchmark
 
 ## js-framework-benchmark
+
 A comparison of the performance of a few popular javascript frameworks
 
 ![alt text](./images/opsec.png)
@@ -11,7 +12,7 @@ A comparison of the performance of a few popular javascript frameworks
 
 Reference: https://krausest.github.io/js-framework-benchmark/current.html
 
-##  Real World Application Performance
+## Real World Application Performance
 
 Wyze Web View, a Next.js-based application for displaying live smart home camera feeds, serves thousands of daily users but suffered from long load times.
 
@@ -23,3 +24,5 @@ Wyze Web View, a Next.js-based application for displaying live smart home camera
 An informal study with ten active users after migration showed that all participants reported reduced load times and less perceived lag.
 
 ![alt text](./images/wyze.png)
+
+[Next Slider: The Future](./future.md)

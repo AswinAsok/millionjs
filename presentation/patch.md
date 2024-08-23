@@ -16,3 +16,7 @@ The patch step takes the calculated UI changes from the diff step and applies th
 
 ## Implementation Flowchart
 ![alt text](./images/implmentation.png)
+
+
+
+[Next Topic: The Benchmarks](./evaluation.md)

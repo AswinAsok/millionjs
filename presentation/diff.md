@@ -14,9 +14,10 @@ Diffing is a `two-pass`, `immutable virtual dom` runtime with sepration at the `
 
 ## Optimization Techniques
 
-- **Fast Path for Keyed Nodes**: When nodes have keys, Million.js can directly map old nodes to new nodes based on these keys, bypassing unnecessary comparisons.
+-   **Fast Path for Keyed Nodes**: When nodes have keys, Million.js can directly map old nodes to new nodes based on these keys, bypassing unnecessary comparisons.
 
-- **Compiler Flags**: These flags help the diffing process by signaling specific optimizations that can be applied, like avoiding certain comparisons when they are unnecessary.
+-   **Compiler Flags**: These flags help the diffing process by signaling specific optimizations that can be applied, like avoiding certain comparisons when they are unnecessary.
 
-- **Delta Calculations**: This technique allows Million.js to calculate the minimal set of changes needed, reducing the number of operations required to update the DOM.
+-   **Delta Calculations**: This technique allows Million.js to calculate the minimal set of changes needed, reducing the number of operations required to update the DOM.
 
+[Next Slide: The Patch Step](./patch.md)

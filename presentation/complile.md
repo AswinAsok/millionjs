@@ -51,3 +51,5 @@ h('div', null, 'Hello World');
 
 
 ![alt text](./images/hoisting.png)
+
+[Next Topic: The Diff Step](./diff.md)
