@@ -1,6 +1,6 @@
 <center>
 
-![Tagline](image.png)
+![Tagline](./images/heading.png)
 
 </center>
 

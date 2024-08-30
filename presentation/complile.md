@@ -4,7 +4,7 @@ The DOM rendering process in million.js has 3 main steps `complie(pre), diff and
 
 ## Compile Step
 
--   The optimizing complier will analyse the DSL and target the hyperscript of the source code to remove redundant code.
+-   The optimizing complier will statically analyse the DSL and target the `hyperscript`(output of dsl compliation) of the source code to remove redundant code.
 
 -   The complier implements `node flattening` and static `tree hoisting` which targets the hyperscript and improves the load time and rendering speed.
 
@@ -39,7 +39,9 @@ h('div', null, 'Hello World');
 
 ### Static Tree Hoisting
 
-**JavaScript Definition For Hoisting**:Access variables and function even before they have been declared in the code.
+Moves the nodes that doesn't have any _state_ dependency to the top of the _JavaScript Scope_
+
+**JavaScript Definition For Hoisting**: Access variables and function even before they have been declared in the code.
 
 #### Reduction in Memory Allocation
 

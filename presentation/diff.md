@@ -2,6 +2,11 @@
 
 Diffing is a `two-pass`, `immutable virtual dom` runtime with sepration at the `node, props and children level`
 
+Points to Keep In Mind
+
+-   This Step Happens in the User Device
+-   This Step Calculates the UI Change, given current and new UI
+
 ## Two Pass Implementation
 
 -   First Pass: Checks Changes at the Node Level
